@@ -1,0 +1,11 @@
+I am solving Sarah's needs regarding creating UX/UI support for a restaurant reservation.
+
+Regarding User Expectations in this prototyping:
+
+* Book a table
+
+* Ability to customize your decision
+
+* Enter Details
+
+* Book and Check Out

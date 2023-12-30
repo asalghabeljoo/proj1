@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Little Lemon - Chicago</title>
+  </head>
+  <style>
+    /* for correcting default margins and paddings */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <body>
+    <!-- Header and Navigation -->
+    <header>
+      <nav style="display: flex; justify-content: space-between; padding: 20px">
+        <!-- Menu Icon Start -->
+        <span>
+          <svg
+            style="width: 20px; height: 20px"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            data-slot="icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </span>
+        <!-- Menu Icon End -->
+
+        <!-- Basket Icon Start -->
+        <span>
+          <svg
+            style="width: 20px; height: 20px"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            data-slot="icon"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+            />
+          </svg>
+        </span>
+        <!-- Basket Icon End -->
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section Start -->
+      <section style="background-color: #495e57; padding: 20px 100px 40px 20px">
+        <h1>
+          <span style="color: #f4ce14"> Little Lemon </span><br />
+          <span
+            style="
+              color: white;
+              font-size: medium;
+              display: inline-block;
+              margin-bottom: 20px;
+            "
+          >
+            Chicago
+          </span>
+        </h1>
+        <p style="color: white; margin-bottom: 40px">
+          We are a family-owned Mediterranean restaurant, focused on traditional
+          recipes served with a modern twist.
+        </p>
+        <span
+          style="
+            background-color: #f4ce14;
+            padding: 5px 10px;
+            border-radius: 15px;
+            cursor: pointer;
+          "
+        >
+          Reserve a table
+        </span>
+      </section>
+
+      <!-- Ordering Section -->
+      <section style="padding: 20px">
+        <h2 style="font-size: medium">ORDER FOR DELIVERY!</h2>
+
+        <div style="margin: 20px 0 20px 0; display: flex; gap: 10px">
+          <span
+            style="
+              background-color: #edefee;
+              color: #495e57;
+              padding: 10px;
+              display: inline-block;
+              border-radius: 15px;
+              cursor: pointer;
+            "
+            >Lunch</span
+          >
+          <span
+            style="
+              background-color: #edefee;
+              color: #495e57;
+              padding: 10px;
+              display: inline-block;
+              border-radius: 15px;
+              cursor: pointer;
+            "
+            >Mains</span
+          >
+          <span
+            style="
+              background-color: #edefee;
+              color: #495e57;
+              padding: 10px;
+              display: inline-block;
+              border-radius: 15px;
+              cursor: pointer;
+            "
+            >Desserts
+          </span>
+          <span
+            style="
+              background-color: #edefee;
+              color: #495e57;
+              padding: 10px;
+              display: inline-block;
+              border-radius: 15px;
+              cursor: pointer;
+            "
+            >A La Carte</span
+          >
+        </div>
+
+        <!-- Menu Items -->
+        <article>
+          <h3 style="margin-bottom: 10px">Greek Salad</h3>
+          <p>
+            The famous Greek salad of crispy lettuce, peppers, olives and our
+            Chicag...
+          </p>
+          <span>$12.99</span>
+        </article>
+
+        <article class="menu-item">
+          <h3 style="margin: 20px 0 10px 0">Bruschetta</h3>
+          <p>
+            Our Bruschetta is made from grilled bread that has been smeared with
+            garli...
+          </p>
+          <span>$7.99</span>
+        </article>
+
+        <article class="menu-item">
+          <h3 style="margin: 20px 0 10px 0">Grilled Fish</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <span>Price not available</span>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
